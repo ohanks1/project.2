@@ -1,0 +1,138 @@
+.header {
+    padding: 15px;
+    text-align: left;
+    background:whitesmoke;
+    color: #1abc9c;
+    font-size: 15px;
+  }
+    img .hero-image {
+        position: relative;
+}
+
+  
+.hero-text {
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    left: 800px;
+    transform: translate(-50%, -50%);
+    color: rgb(244, 242, 242);
+  }
+ 
+
+
+  .welcome {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .discover {
+    text-align: center;
+    font-size: 20px;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #93e4d4;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #1abc9c;
+    color: white;
+  }
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .Mission {
+    text-align: center;
+    padding: 15px;
+
+  }
+  .explore {
+    text-align: center;
+  }
+  .benefit {
+    text-align: center;
+    color:#1abc9c;
+  }
+  .benefittxt {
+    text-align: center;
+  }
+  .benefittxts {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .teatxt {
+    position: relative;
+    text-align: left;
+    left: 300px;
+    top: -200px;
+  }
+  img .teas {
+    position: relative;
+  }
+  .teas{
+    margin: 15px;
+    margin-left: 450px;
+  }
+  .tea{
+    margin: 15px;
+    margin-left: 450px;
+    font-size: 20px;
+    color: #1abc9c;
+  }
+  .oiltxt {
+    position: relative;
+    text-align: left;
+    left: 300px;
+    top: -200px;
+  }
+  img .oil {
+    position: relative;
+  }
+  .oil{
+    margin: 15px;
+    margin-left: 450px;
+  }
+  .oils{
+    margin: 15px;
+    margin-left: 450px;
+    font-size: 20px;
+    color: #1abc9c;
+  }
+  .supply {
+    position: relative;
+    text-align: left;
+    left: 300px;
+    top: -200px;
+  }
+  img .supplements {
+    position: relative;
+  }
+  .supplement{
+    margin: 15px;
+    margin-left: 450px;
+  }
+  .supplements{
+    margin: 15px;
+    margin-left: 450px;
+    font-size: 20px;
+    color: #1abc9c;
+  }
