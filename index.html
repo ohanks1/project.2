@@ -24,25 +24,86 @@
 
 <body>
   <!-- Place your site's HTML here -->
+
   <div class="header">
-  <h1>Green Earth Apothecary</h1>
+  <h1>Rural Roots Homestead</h1>
 </div>
 
-<div class="topnav">
-  <a class="active" href="./index.html">Home</a>
-  <a href="./shop.html">Shop</a>
-  <a href="./learn.html">Learn</a>
-  <a href="./about us.html">About Us</a>
-  <input type="text" placeholder="Search..">
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="garden-menu" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
 
-<div class="hero-image">
-  <img src="./img/AdobeStock_441346636.jpg" alt="">
-  <div class="hero-text">
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+<!-- Hero Image -->
+<div class="garden-main-wrapper">
+  <div class="garden-featured-grid-wrapper">
+    <img class="garden-featured-grid-image" src="./img/website.hero.transparent.png" alt="">
+  </div>
+
+  <!-- Hero Image Text -->
+  <div class="garden-text">
     <p><i>Where the Earth meets Health.</i></p>
   </div>
 </div>
 
+<header>
+  <h1>Welcome to Your Homestead Guidebook</h1>
+  <p>Your Source for Homesteading Advice and Essentials</p>
+</header>
+
+<div class="maian.headers">
+  <h2>About Me</h2>
+  <p>Welcome to The Homestead Guideline, your one-stop destination for all things homesteading. I'm passionate about teaching people how to live a sustainable and fulfilling homestead life while providing essential products to make it easier.</p>
+
+  <h2>Featured Articles</h2>
+  <!--  articles and content here -->
+      <div class="garden-read-feature-items">
+        <!-- first section -->
+        <div class="garden-read-feature-item">
+          <img src="./img/homestead-girl.jpeg" alt="">
+          <h3>How To Begin Homesteading</h3>
+          <p>>Learn the basics of homesteading and how to start your journey towards a sustainable and self-sufficient life on your own land.</p>
+        </div>
+
+        <!-- second section -->
+        <div class="garden-read-feature-item">
+          <img src="./img/garden.2.jpeg" alt="">
+          <h3>The Art of Sustainable Gardening</h3>
+          <p>Discover the secrets to growing your own food, maintaining a thriving garden, and ensuring a bountiful harvest year-round.</p>
+        </div>
+
+        <!-- third section -->
+        <div class="garden-read-feature-item">
+          <img src="./img/animals.jpeg" alt="">
+          <h3>Raising Happy and Healthy Livestock</h3>
+          <p>Get insights into responsible animal husbandry, raising livestock for food, and creating a harmonious environment on your homestead.</p></p>
+        </div>
+
+  <h2>Shop Homesteading Essentials</h2>
+  <!--  product listings and details here -->
+
+  <h2>Contact Me</h2>
+  <p>If you have any questions or need assistance, don't hesitate to reach out to me at [Your Email Address].</p>
+</div>
  
 
 
