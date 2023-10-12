@@ -31,13 +31,14 @@ h1 {
 }
   
 .garden-text {
+    font-family: 'Roboto Slab', serif;
     font-size: 45px;
     text-align: center;
     position: relative;
     top: -100px;
     left: 800px;
     transform: translate(-50%, -50%);
-    color: rgb(244, 242, 242);
+    color: #000000;
   }
  
 
@@ -98,12 +99,164 @@ h1 {
   }
 }
 
-.garden-featured-grid-wrapper {
-  text-align: center;
-  color: #037030;
-  font-weight: 700;
+.garden-main-wrapper{
+  max-width: 1550px;
+  overflow: hidden;
 }
 
-.garden-featured-grid-wrapper img {
-  max-width: 800px;
+/* Three columns side by side */
+.GardenReadColumn, .ShopColumn {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .GardenReadColumn, .ShopColumn  {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .GardenReadRow::after, .ShopRow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Style the form element with a border around it */
+form {
+  border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4C7E66;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+body {
+  color: #000;
+  background-color: #efefef;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 16px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+/* media query for phones */
+@media (max-width: 480px) {
+  body {
+    background-color: #4C7E66;
+  }
+}
+
+/* media query for desktop */
+@media (min-width: 768px) {
+  body {
+    background-color: #f7f7f7;
+  }
+}
+
+label {
+  color: rgb(0, 0, 0);
+}
+
+p {
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Email{
+  text-align: center;
 }

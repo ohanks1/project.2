@@ -70,41 +70,110 @@
   <p>Your Source for Homesteading Advice and Essentials</p>
 </header>
 
-<div class="maian.headers">
+<div class="main.headers">
   <h2>About Me</h2>
   <p>Welcome to The Homestead Guideline, your one-stop destination for all things homesteading. I'm passionate about teaching people how to live a sustainable and fulfilling homestead life while providing essential products to make it easier.</p>
-
-  <h2>Featured Articles</h2>
-  <!--  articles and content here -->
-      <div class="garden-read-feature-items">
-        <!-- first section -->
-        <div class="garden-read-feature-item">
-          <img src="./img/homestead-girl.jpeg" alt="">
+  
+  <!-- Featured Items -->
+  <!--  articles and content here (borrowed from W3 Schools)-->
+  <h2>Articles</h2>
+    <div class="GardenReadRow">
+      <div class="GardenReadColumn">
+       <div class="card">
+        <img src="./img/homestead-girl.jpeg" alt="HowTo" style="width:100%">
+        <div class="container">
           <h3>How To Begin Homesteading</h3>
-          <p>>Learn the basics of homesteading and how to start your journey towards a sustainable and self-sufficient life on your own land.</p>
+          <p>Learn the basics of homesteading and how to start your journey towards a sustainable and self-sufficient life on your own land.</p>
+          <p><button class="button">Read Now</button></p>
         </div>
-
-        <!-- second section -->
-        <div class="garden-read-feature-item">
-          <img src="./img/garden.2.jpeg" alt="">
-          <h3>The Art of Sustainable Gardening</h3>
-          <p>Discover the secrets to growing your own food, maintaining a thriving garden, and ensuring a bountiful harvest year-round.</p>
-        </div>
-
-        <!-- third section -->
-        <div class="garden-read-feature-item">
-          <img src="./img/animals.jpeg" alt="">
+      </div>
+    </div>
+  
+    <div class="GardenReadColumn">
+      <div class="card">
+        <img src="./img/animals.jpeg" alt="HappyAnimal" style="width:100%">
+        <div class="container">
           <h3>Raising Happy and Healthy Livestock</h3>
-          <p>Get insights into responsible animal husbandry, raising livestock for food, and creating a harmonious environment on your homestead.</p></p>
+          <p>Get insights into responsible animal husbandry, raising livestock for food, and creating a harmonious environment on your homestead.</p>
+          <p><button class="button">Read Now</button></p>
         </div>
+      </div>
+    </div>
+  
+    <div class="GardenReadColumn">
+      <div class="card">
+        <img src="./img/garden.2.jpeg" alt="Garden" style="width:100%">
+        <div class="container">
+          <h3>The Art of Sustainable Gardening</h3>
+          <p>Get insights into responsible animal husbandry, raising livestock for food, and creating a harmonious environment on your homestead.</p>
+          <p><button class="button">Read Now</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <h2>Shop Homesteading Essentials</h2>
   <!--  product listings and details here -->
-
-  <h2>Contact Me</h2>
-  <p>If you have any questions or need assistance, don't hesitate to reach out to me at [Your Email Address].</p>
+  <h2>Shop Homesteading Essentials</h2>
+    <div class="ShopRow">
+      <div class="ShopColumn">
+       <div class="card">
+        <img src="./img/homestead-girl.jpeg" alt="HowTo" style="width:100%">
+        <div class="container">
+          <h3>How To Begin Homesteading</h3>
+          <p>Learn the basics of homesteading and how to start your journey towards a sustainable and self-sufficient life on your own land.</p>
+          <p><button class="button">Read Now</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="ShopColumn">
+      <div class="card">
+        <img src="./img/animals.jpeg" alt="HappyAnimal" style="width:100%">
+        <div class="container">
+          <h3>Raising Happy and Healthy Livestock</h3>
+          <p>Get insights into responsible animal husbandry, raising livestock for food, and creating a harmonious environment on your homestead.</p>
+          <p><button class="button">Read Now</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="ShopColumn">
+      <div class="card">
+        <img src="./img/garden.2.jpeg" alt="Garden" style="width:100%">
+        <div class="container">
+          <h3>The Art of Sustainable Gardening</h3>
+          <p>Get insights into responsible animal husbandry, raising livestock for food, and creating a harmonious environment on your homestead.</p>
+          <p><button class="button">Read Now</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div class= "Email">
+  <p>If you have any questions or need assistance, don't hesitate to reach out to me at contact@thehomesteadguideline.com.</p>
 </div>
  
+<h2>Sign Up for Our Newsletter!</h2>
+
+<form action="action_page.php">
+  <div class="container">
+    <p>Stay updated with the latest homesteading tips, articles, and product offerings.</p>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <label for="name">Name:</label><br>
+    <input type="text" placeholder="Name" name="name" required>
+    <label for="mail">E-mail Address:</label><br>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+  <script src="js/main.js"></script>
 
 
 
